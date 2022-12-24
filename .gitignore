@@ -1,0 +1,6 @@
+/.pytest_cache
+/__pycache__
+/assets
+/report.html
+/trace.zip
+/venv

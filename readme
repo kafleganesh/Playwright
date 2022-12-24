@@ -1,0 +1,25 @@
+Install pytest plugin:
+    -pip install pytest-playwright
+
+Install the required browsers:
+    -playwright install
+
+Run Test
+    -pytest demo.py 
+
+Run Test in headed mode:
+    -pytest --headed demo.py 
+
+
+Run Test and generate html reporter:
+    -pytest --headed demo.py --html=report.html
+
+
+Code Generator:  playwright codegen https://www.saucedemo.com/
+
+Generate trace :
+    -context.tracing.start(screenshots=True, snapshots=True, sources=True)
+    -context.tracing.stop(path = "/Users/ganeshkafle/Playwright/trace.zip")
+
+
+Trace viewer: playwright show-trace trace.zip
